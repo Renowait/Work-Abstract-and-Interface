@@ -31,7 +31,7 @@ class Rectangle extends Shape implements Drawable{
   @override
   calculateArea() {
     // TODO: implement calculateArea
-    return print('Area of Rectangle: ${width! * heigth!}');
+    print('Area of Rectangle: ${width! * heigth!}');
   }
   draw() => print("Drawing Rectangle with width: ${width} and height: ${heigth}");
 }
